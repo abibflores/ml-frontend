@@ -18,8 +18,24 @@
   },
   "homepage": "https://github.com/abibflores/ml-frontend#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "next": "^12.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.31.2",
+    "react-query": "^3.39.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^12.1.6",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "prettier": "^2.6.2",
+    "prop-types": "^15.8.1"
   }
 }
