@@ -1,9 +1,9 @@
 import React from "react";
-import Image from "next/image";
 import PropTypes from "prop-types";
 
 export const Img = ({ src, alt, height, width }) => (
-  <Image alt={alt} height={height} src={src} width={width} />
+  // eslint-disable-next-line @next/next/no-img-element
+  <img alt={alt} height={height} src={src} width={width} loading="lazy" />
 );
 
 Img.defaultProps = {
