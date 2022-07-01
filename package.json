@@ -4,7 +4,9 @@
   "description": "En este repositorio estaremos consumiendo la API que creamos para buscar productos de Mercado Libre",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "export": "npm run build && next export"
   },
   "repository": {
     "type": "git",
